@@ -1,0 +1,11 @@
+.modalPrueba {
+   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0; height: 100%;  width: 100%; background-color: rgba(104, 101, 101, 0.452); color: #000000; display:none;
+}
