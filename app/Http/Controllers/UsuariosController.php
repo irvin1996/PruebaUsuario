@@ -26,7 +26,7 @@ return response()->json($Roles);
  public function getIndexUsuario(){
 
         $user = User::orderBy('identificacion','asc')->paginate(5);
-        $roll=Role::all();
+        $roll=Role::all()->id;
         $pasaporte=Pasaporte::all();
       //  $idRolBusc=-1;
     return view('Usuarios.Index',['us'=>$user,'ro'=>$roll,'pass'=>$pasaporte/*,'idRolBusc'=>$idRolBusc*/]);
