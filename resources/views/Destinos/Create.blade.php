@@ -4,7 +4,7 @@
   <div class="">
              <div class="page-title">
                <div class="title_left">
-                 <h3>Viajes Positivos Usuario</h3>
+                 <h3>Viajes Positivos Usuario login</h3>
                  <br>
                  <div class="col-md-8 col-sm-8 ">
                 @include('partials.errors')
