@@ -4,7 +4,7 @@
   <div class="">
              <div class="page-title">
                <div class="title_left">
-                 <h3>Viajes Positivos</h3>
+                 <h3>Viajes Positivos Master</h3>
                  <br>
                  <div class="col-md-8 col-sm-8 ">
                 @include('partials.errors')
@@ -75,7 +75,7 @@
 
 
 
-                  
+
 
                        <div class="ln_solid"></div>
                        <div class="form-group">
